@@ -1,6 +1,6 @@
 .profile-picture {
 /*	creates a rounded image for our profile picture*/
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .name {
@@ -24,7 +24,8 @@ html, body {
 
 .wrapper {
   
-  max-width: 50%;
+  /*this changes how wide the things are from each other*/
+  max-width: 80%;
   display: flex;
   flex-direction: row;
   height: 80%;
@@ -53,7 +54,7 @@ html, body {
 
 .social-links li {
   display: inline-block;
-  margin-right: 8px; 
+  margin-right: 2px; 
 }
 
 .social-links a {

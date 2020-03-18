@@ -9,17 +9,32 @@
 }
 
 
-html, body {
-  display: flex;
+html, body{
   align-items: center;
   justify-content: center;
   height: 100%;
   margin: 0px;
   padding: 0px;
 
+}
+
+.firstFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to bottom, rgba(15,39,81), rgba(170,221,235,1));
+
   /*setting the font*/
   font-family: 'Open Sans', sans-serif;
   font-size: 21px;
+}
+
+.abtMe{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -27,10 +42,14 @@ html, body {
   /*this changes how wide the things are from each other*/
   max-width: 80%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 80%;
 }
 
+.secondFlex{
+  display:flex;
+  flex-direction: column;
+}
 .left, .right {
   
   margin: 5px;
@@ -65,4 +84,17 @@ html, body {
 .social-links a:hover {
 	/*color when it hovers*/
   background-color: rgba(183, 181, 208, 0.1);
+}
+
+
+
+
+
+/*image rotation magic*/
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }

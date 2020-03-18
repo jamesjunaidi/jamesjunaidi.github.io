@@ -25,7 +25,6 @@ html, body{
   height: 100%;
   margin: 0px;
   padding: 0px;
-  background: linear-gradient(to bottom, rgba(15,39,81), rgba(170,221,235,1));
 
   /*setting the font*/
   font-family: 'Open Sans', sans-serif;
@@ -85,9 +84,6 @@ html, body{
 	/*color when it hovers*/
   background-color: rgba(183, 181, 208, 0.1);
 }
-
-
-
 
 
 /*image rotation magic*/

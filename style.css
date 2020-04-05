@@ -45,10 +45,8 @@ html, body{
   height: 80%;
 }
 
-.secondFlex{
-  display:flex;
-  flex-direction: column;
-}
+
+
 .left, .right {
   
   margin: 5px;
@@ -63,6 +61,7 @@ html, body{
   align-items: center;
   justify-content: center;
 }
+
 
 .social-links {
   list-style: none;

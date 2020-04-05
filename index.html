@@ -1,53 +1,237 @@
-
 <!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="./style.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-		<title> James Junaidi </title>
-	</head>
-	<!-- <body style="background: linear-gradient(to bottom, rgba(52,126,158), rgba(170,221,235,1));">  //broken gradient-->\
-	<body style="background: rgba(170,221,235,1)">
-	<body>
-		<div class="firstFlex">
-			<div class="wrapper">
-				<div class="left">
-					<img class="profile-picture" src="./jamesSanta.JPG" width="550" />
-					<h1>James Junaidi</h1>
-					<h4>Welcome!</h4>
-				</div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>James Junaidi</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div class="menu-toggler">
+			<div class="bar half start"></div>
+			<div class="bar"></div>
+			<div class="bar half end"></div>
+		</div>
+		<nav class="top-nav">
+			<ul class="nav-list">
+				<li>
+					<a href="index.html" class="nav-link">Home</a>
+				</li>
+				<li>
+					<a href="#about" class="nav-link">About</a>
+				</li>
+				<li>
+					<a href="#services" class="nav-link">Services</a>
+				</li>
+				<li>
+					<a href="#portfolio" class="nav-link">Portfolio</a>
+				</li>
+				<li>
+					<a href="#experience" class="nav-link">Experience</a>
+				</li>
+				<li>
+					<a href="#contact" class="nav-link">Contact</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="landing-text">
+			<h1>James Junaidi</h1>
+			<h6>Software Developer</h6>
+		</div>
+	</header>
 
-				<div class="right">
-					<!-- 	Information Part -->
-					<p class="bio">
-						Hi! I study computer science at the University of California in Davis. As you can see, Web Development is not my strongest area and is something I want to improve upon. But anyways, Thank you for visiting my site!
-					</p>
-					<!-- 	list of my links here! -->
-					<ul class="social-links">
-					  <li><a href="https://www.linkedin.com/in/jamesjunaidi">My LinkedIn Page!</a></li>
-					  <li><a href="https://github.com/jamesjunaidi">My Github Page!</a></li>
-					</ul>
-					<!-- download my resume -->
-					<a href="./JamesJunaidiResume.pdf" download="JunaidiJamesResume">See my current resume (03/19/2020) here! <br> </a>
-					<!-- section for my bio -->
-					<h1>About Me (Bio):</h1>
-					<p class="bio">
-						My name is James. I used to run a lot, but now I'm more focused on working to enhance my software development skills. I am from Folsom which is in Sacramento county. A fun fact about me is that I hold the vista del lago track 5K school record. I'm also interning at T-Mobile for the summer of 2020. Check out a picture of my dog, Lucky, who just turned 9 on the 19th of March, 2020.: <br> <br> <br>
-					</p>
-					<img class="rotate90" src="./lucky.jpg" width="450"/>
-					<p>
-						<br> <br> <br> P.S. I'm really sad because the gradient doesn't work like I want it to, update coming soon. Also, the mobile view is completely trashed lol. Fix in the future is coming!!! <br>
-					</p>
-					<h1>Update for Sunday, March 29.</h1>
-					<p>
-						Hi everybody, I'm writing today to talk about my experience at the virtual LAHacks 2020 event. I worked with some of my friends on an application that notifies people through text about the stocking of certain supplies that are important during this COVID-19 pandemic. See the devpost link for more information! I thought it was pretty cool how we got it to work fully.
-					</p>
-					<ul>
-						<li><a href="https://devpost.com/software/shopperalert">ShopperAlert Devpost!</a></li>
+	<section class="about" id="about">
+		<div class="container">
+			<div class="profile-img">
+				<img src="images/profile.jpeg" alt="">
+			</div>
+			<div class="about-details">
+				<div class="about-heading">
+					<h1>About</h1>
+					<h6>Myself</h6>
+				</div>
+				<p>
+					Dummy Text
+				</p>
+				<div class="social-media">
+					<ul class="nav-list">
+						<li>
+							<a href="#" class="icon-link">
+								<i class="fab fa-facebook-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon-link">
+								<i class="fab fa-twitter-square"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="icon-link">
+								<i class="fab fa-linkedin-square"></i>
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>
 		</div>
+	</section>
 
-	</body>
+	<section class="services" id="services">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Services</h1>
+				<h6>What I can do for you</h6>
+			</div>
+			<div class="my-skills">
+				<div class="skill">
+					<div class="icon-container">
+						<i class="fas fa-layer-group"></i>
+					</div>
+					<h1>Web Design</h1>
+					<p>Description about my skills</p>
+				</div>
+				<div class="skill">
+					<div class="icon-container">
+						<i class="fas fa-code"></i>
+					</div>
+					<h1>Software Engineering</h1>
+					<p>Description about my skills</p>
+				</div>
+				<div class="skill">
+					<div class="icon-container">
+						<i class="fas fa-chart-bar"></i>
+					</div>
+					<h1>Data Analytics</h1>
+					<p>Description about my skills</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="portfolio" id="portfolio">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Portfolio</h1>
+				<h6>View some of my recent work</h6>
+			</div>
+			<div class="portfolio-item">
+				<div class="portfolio-img has-margin-right">
+					<img src="images/portitem1.jpeg" alt="">
+				</div>
+				<div class="portfolio-description">
+					<h6>Web Development</h6>
+					<h1>Blog Website</h1>
+				<!-- 	CAN CHANGE THIS LATER -->
+					<p>
+						Description of this
+					</p>
+					<a href="#" class="cta">View Details</a>
+				</div>
+			</div>
+
+			<!-- FIRST PORTFOLIO ITEM -->
+			<div class="portfolio-item">
+				<div class="portfolio-description has-margin-right">
+					<h6>Web Design</h6>
+					<h1>Product Layout</h1>
+				<!-- 	CAN CHANGE THIS LATER -->
+					<p>
+						Description of this
+					</p>
+					<a href="#" class="cta">View Details</a>
+				</div>
+				<div class="portfolio-img">
+					<img src="images/portitem2.jpeg" alt="">
+				</div>
+			</div>
+
+			<!-- SECOND PORTFOLIO ITEM -->
+
+			<div class="portfolio-item">
+				<div class="portfolio-img has-margin-right">
+					<img src="images/portitem3.jpeg" alt="">
+				</div>
+				<div class="portfolio-description">
+					<h6>Web Design</h6>
+					<h1>Product Sketch</h1>
+				<!-- 	CAN CHANGE THIS LATER -->
+					<p>
+						Description of this
+					</p>
+					<a href="#" class="cta">View Details</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="experience" id="experience">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Work Experience</h1>
+				<h6>Past and current jobs</h6>
+			</div>
+			<div class="timeline">
+				<ul>
+					<li class="date" data-date="Jan. 2020 - Present">
+						<h1>Komma</h1>
+						<p>Co-Founder and iOS Software Developer</p>
+					</li>
+
+					<li class="date" data-date="Jan. 2020 - Present">
+						<h1>#include @UC Davis</h1>
+						<p>Worked as a web developer.</p>
+					</li>
+
+					<li class="date" data-date="Jan. 2019 - Aug. 2019">
+						<h1>The Habit Burger Grill</h1>
+						<p>Executive Burger Chef</p>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="section-heading">
+				<h1>Contact</h1>
+				<h6>Let's get in touch!</h6>
+			</div>
+			<form action="">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" placeholder="Enter your name..." required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Enter your email..." required>
+				<label for="service">Services:</label>
+				<select name="service" id="service">
+					<option value="">Mobile Development</option>
+					<option value="">Web Development</option>
+					<option value="">Software Engineering</option>
+				</select>
+				<label for="subject">Subject:</label>
+				<textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</section>
+
+
+	<footer class="copyright">
+		<div class="up" id="up">
+			<i class="fas fa-chevron-up"></i>
+		</div>
+		<p>&copy; 2020 James Junaidi</p>
+	</footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>

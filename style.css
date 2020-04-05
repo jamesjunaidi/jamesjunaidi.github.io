@@ -245,9 +245,8 @@ li{
 	font-weight: 300;
 }
 
-.profile-img{
+.portfolio-img{
 	flex: 1;
-	margin-right: 5rem;
 }
 
 .about-details{
@@ -324,7 +323,7 @@ li{
 	margin-bottom: 5rem
 }
 
-.portfolio-item: last-child{
+.portfolio-item:last-child{
 	margin-bottom: 0;
 }
 
@@ -334,6 +333,7 @@ li{
 }
 
 .portfolio-description{
+	flex: 1;
 }
 
 .portfolio-description h6{

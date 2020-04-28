@@ -1,0 +1,3 @@
+This readme should be in the Github repository that contains the code for my website. I built this website with the purpose of having it be a nice portfolio to display some of the stuff that I've done. HTML/CSS isn't quite my strength, but I want to show that I am able to work with whatever needs to be worked with. I had to follow a lot of tutorials and guides, and I must give credit to Julio Codes who essentially provided the main tutorial
+
+The website currently is able to display animations, and has various links to my resume and social media profiles. There are still some bugs with the mobile version but for the most part it works sufficiently. I will attempt to keep this updated as much as possible as time goes on. 

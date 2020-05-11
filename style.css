@@ -55,7 +55,7 @@ img {
 }
 
 .section-heading h1 {
-  font-size: 3.5rem;
+  font-size: 5.8rem;
   color: rgba(255, 255, 255, .3);
   text-transform: uppercase;
   font-weight: 300;
@@ -87,7 +87,7 @@ img {
 }
 
 .section-heading h6 {
-  font-size: 1.6rem;
+  font-size: 1.78rem;
   font-weight: 300;
 }
 
@@ -218,8 +218,10 @@ li {
 }
 
 .landing-text h6 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  opacity: .7;
   font-weight: 400;
+  font-family: roboto;
 }
 /*End header*/
 
@@ -278,7 +280,7 @@ li {
 }
 /*End about*/
 
-/*Start services*/
+/*Start services/skills*/
 .my-skills {
   margin-top: 10rem;
   display: grid;
@@ -299,20 +301,22 @@ li {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin: 2rem -2px 2rem 0;
+  font-size: 1.7rem;
 }
 
 .icon-container {
   width: 10rem;
   height: 10rem;
-  border: 3px solid #ffe838;
-  background-color: #fd57bf;
+  border: 3px solid #dd9787;
+  background-color: #68c09d;
   margin-bottom: 2rem;
   display:flex;
   transform: rotate(45deg);
 }
 
 .icon-container i { 
-  color: #ffe838;
+  /* color for the inside of the graphics*/
+  color: #4f1e1b;
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg);

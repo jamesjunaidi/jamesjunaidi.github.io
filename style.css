@@ -265,9 +265,10 @@ li {
   transition: color 650ms;
 }
 
-/* No hover affect :( */
-.fa-facebook-square {
-  color: #4267b2;
+/* No hover affect :( 
+   but also colors for the logos */
+.fa-github-square {
+  color: #fafbfc;
 }
 .fa-twitter-square {
   color: #38a1f3;

@@ -245,6 +245,11 @@ li {
   opacity: .8;
 }
 
+.post1-heading h6 {
+  font-size: 2.13rem;
+  opacity: .8;
+}
+
 .post1 p {
   font-size: 2rem;
 }

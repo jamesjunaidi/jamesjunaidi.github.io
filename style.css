@@ -45,7 +45,7 @@ img {
 
 /*Start reusable*/
 .container {
-  width: 90%;
+  width: 100%;
   max-width: 120rem;
   height: 100%;
   margin: 0 auto;
@@ -255,11 +255,14 @@ li {
 
 .portfolio-img {
   flex: 1;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .about-details {
   flex: 1;
-  margin-left: 5rem
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .social-media {
